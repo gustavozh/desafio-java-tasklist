@@ -1,0 +1,41 @@
+{
+  "name": "spring-data-rest-and-reactjs",
+  "version": "0.1.0",
+  "description": "Task Manager",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gustavozh/desafio-java-tasklist.git"
+  },
+  "keywords": [
+    "rest",
+    "hateoas",
+    "spring",
+    "data",
+    "react"
+  ],
+  "author": "Gustavo",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/gustavozh/desafio-java-tasklist",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "rest": "^1.3.1",
+    "webpack": "^1.12.2",
+    "bootstrap": "^3.3.7",
+    "style-loader": "^0.13.1",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "font-awesome": "^4.7.0"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0"
+  }
+}
